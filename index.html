@@ -1,4 +1,6 @@
   <!DOCTYPE html>
+
+
 <head>
   <style>
     body {
@@ -10,6 +12,16 @@
   </style>
 </head>
 <body>
+<script src="scripts/main.js"></script>
+<script>
+    function myfunction(Mess) {
+    console.log("HereI am");
+    var btn = document.createElement("LABEL");
+    var t = document.createTextNode(Mess);
+    btn.appendChild(t);
+    document.body.appendChild(btn);
+  }
+  </script>
   
   <h1>GTR</h1>
 
@@ -18,5 +30,9 @@
   <p><a href="build/index.html">Taxpayer Registration Page</a>.</p><br><br>
   
   <p><a href="purchase.html">Purchase Notification Page</a>.</p><br><br>
+
+  <button onClick= {myfunction("Thing")}> District </button>
+
+            <br /><br />
   
 </body>
