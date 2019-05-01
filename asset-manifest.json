@@ -1,14 +1,13 @@
 {
-  "main.css": "/CostingTheErf/static/css/main.e2051247.chunk.css",
-  "main.js": "/CostingTheErf/static/js/main.2787fcfa.chunk.js",
-  "main.js.map": "/CostingTheErf/static/js/main.2787fcfa.chunk.js.map",
-  "static/js/1.80a7a5fd.chunk.js": "/CostingTheErf/static/js/1.80a7a5fd.chunk.js",
-  "static/js/1.80a7a5fd.chunk.js.map": "/CostingTheErf/static/js/1.80a7a5fd.chunk.js.map",
-  "runtime~main.js": "/CostingTheErf/static/js/runtime~main.08a41d36.js",
-  "runtime~main.js.map": "/CostingTheErf/static/js/runtime~main.08a41d36.js.map",
-  "static/media/logo.svg": "/CostingTheErf/static/media/logo.5d5d9eef.svg",
-  "static/css/main.e2051247.chunk.css.map": "/CostingTheErf/static/css/main.e2051247.chunk.css.map",
+  "main.css": "/CostingTheErf/static/css/main.e6d20e01.chunk.css",
+  "main.js": "/CostingTheErf/static/js/main.8c51edac.chunk.js",
+  "main.js.map": "/CostingTheErf/static/js/main.8c51edac.chunk.js.map",
+  "runtime~main.js": "/CostingTheErf/static/js/runtime~main.dce5ee11.js",
+  "runtime~main.js.map": "/CostingTheErf/static/js/runtime~main.dce5ee11.js.map",
+  "static/js/2.f4a84450.chunk.js": "/CostingTheErf/static/js/2.f4a84450.chunk.js",
+  "static/js/2.f4a84450.chunk.js.map": "/CostingTheErf/static/js/2.f4a84450.chunk.js.map",
   "index.html": "/CostingTheErf/index.html",
-  "precache-manifest.d4e127fcbd725ec812de10b78c8b7e88.js": "/CostingTheErf/precache-manifest.d4e127fcbd725ec812de10b78c8b7e88.js",
-  "service-worker.js": "/CostingTheErf/service-worker.js"
+  "precache-manifest.3c60c62c597fecb5897cb284544eeb50.js": "/CostingTheErf/precache-manifest.3c60c62c597fecb5897cb284544eeb50.js",
+  "service-worker.js": "/CostingTheErf/service-worker.js",
+  "static/css/main.e6d20e01.chunk.css.map": "/CostingTheErf/static/css/main.e6d20e01.chunk.css.map"
 }
