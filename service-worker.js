@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/CostingTheErf/precache-manifest.1c4bbba1570a99f85d24e64733a75a50.js"
+  "/CostingTheErf/precache-manifest.3c60c62c597fecb5897cb284544eeb50.js"
 );
 
 workbox.clientsClaim();
