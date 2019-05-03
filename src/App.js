@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route} from 'react-router-dom';
+import { HashRouter, Route} from 'react-router-dom';
 import './App.css';
 
 import Top from './components/Top';
@@ -20,7 +20,7 @@ import Pub from './components/Stub';
 class App extends Component {
   render(){
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <Route exact={true} path = "/" 
             render={() => (
@@ -102,7 +102,7 @@ class App extends Component {
 
         </div>
 
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
