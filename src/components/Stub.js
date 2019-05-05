@@ -9,7 +9,7 @@ class Stub extends Component {
   render (){
     return (
       <>
-      <div id = "top">
+      <div id = "treas">
         <header> 
           ~<em> STUB </em>~
           <img src={ logo } className="App-logo" alt="logo" />
@@ -18,7 +18,7 @@ class Stub extends Component {
         <h2>  Coming Soon </h2>
 
         <br />
-        <Link to="/">Back</Link>  
+        <a href = "#top">Back</a>  
          <br /><br />  
       </div>
 

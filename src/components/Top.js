@@ -14,7 +14,7 @@ class Top extends Component {
           ~<em> Fiscal Fantasia </em>~
         </header>
 
-        <h2>  Home Page </h2>
+        <h2>  Some Page </h2>
 
         <Link to="/LandRegistry"> Land Registry </Link>
         <br/><br/>

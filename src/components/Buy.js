@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import logo from './cslogo.png';
 import './App.css';
 
@@ -671,8 +670,10 @@ class Buy extends Component {
               <button type="submit"> Submit </button>
               <br /><br />
             </form> 
-                  <br /><br />
-            <Link to="/Taxpayers">Back</Link><br/><br/>
+
+        <br />
+        <a href = "#taxp">Back</a>  
+         <br /><br />
       </div>
 
       <div className="Reg" id = "buy">

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import logo from './cslogo.png';
 import './App.css';
+import PropReg from './PropReg';
+import PropChange from './PropChange';
+import PropQ from './PropQ';
 
 class Prop extends Component {
 
@@ -9,22 +11,22 @@ class Prop extends Component {
   render (){
     return (
       <>
-      <div id = "top">
+      <div id = "prop">
         <header> 
           Land Registry
           <img src={ logo } className="App-logo" alt="logo" />
         </header>
         <h2> </h2>
-        <Link to="/LandRegistry/Register"> Register a Property </Link>
+        <a href = "#preg"> Register a Property </a>
         <br/><br/>
 
-        <Link to="/LandRegistry/Update"> Amend a Property Record </Link>
+        <a href = "#apr"> Amend a Property Record </a>
         <br/><br/>
 
-        <Link to="/LandRegistry/Query"> Query the Property Register </Link>
+        <a href = "#qpr"> Query the Property Register </a>
         <br/><br/>
         <br />
-        <Link to="/">Back</Link>  
+        <a href = "#top">Back</a>  
          <br /><br />   
       </div>
 
@@ -32,6 +34,37 @@ class Prop extends Component {
         <header>
         </header>
       </div>
+
+      <div id = "preg">
+        <PropReg>   
+        </PropReg>
+      </div>
+
+      <div className="Reg" id = "buy">
+        <header>
+        </header>
+      </div>
+
+      <div id = "apr">
+        <PropChange>   
+        </PropChange>
+      </div>
+
+      <div className="Reg" id = "buy">
+        <header>
+        </header>
+      </div>
+
+      <div id = "qpr">
+        <PropQ>   
+        </PropQ>
+      </div>
+
+      <div className="Reg" id = "buy">
+        <header>
+        </header>
+      </div>
+
       </>
     );
   }

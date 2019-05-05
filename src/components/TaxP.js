@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import logo from './cslogo.png';
 import './App.css';
+import TaxReg from './TaxReg';
+import Bank from './Bank';
+import Buy from './Buy';
 
 class TaxP extends Component {
 
@@ -9,24 +11,54 @@ class TaxP extends Component {
   render (){
     return (
       <>
-      <div id = "top">
+      <div id = "taxp">
         <header> 
           Taxpayer Area
           <img src={ logo } className="App-logo" alt="logo" />
         </header>
         <h2> </h2>
-        <Link to="/Taxpayers/Register"> Register as a Taxpayer </Link>
+        <a href = "#treg"> Register as a Taxpayer </a>
         <br/><br/>
 
-        <Link to="/Taxpayers/GRandBank"> GRand Bank Account </Link>
+        <a href = "#bank"> GRand Bank Account </a>
         <br/><br/>
 
-        <Link to="/Taxpayers/Purchase"> Buy/Sell Property </Link>
+        <a href = "#get"> Buy/Sell Property </a>
         <br/><br/>
 
         <br />
-        <Link to="/">Back</Link>  
-         <br /><br />   
+        <a href = "#top">Back</a>  
+         <br /><br />    
+      </div>
+
+      <div className="Reg" id = "buy">
+        <header>
+        </header>
+      </div>
+
+      <div id = "treg">
+        <TaxReg>   
+        </TaxReg>
+      </div>
+
+      <div className="Reg" id = "buy">
+        <header>
+        </header>
+      </div>
+
+      <div id = "bank">
+        <Bank>   
+        </Bank>
+      </div>
+
+      <div className="Reg" id = "buy">
+        <header>
+        </header>
+      </div>
+
+      <div id = "get">
+        <Buy>   
+        </Buy>
       </div>
 
       <div className="Reg" id = "buy">

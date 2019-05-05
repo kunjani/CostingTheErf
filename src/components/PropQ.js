@@ -426,15 +426,15 @@ class PropQ extends Component {
     return (
       <>
 
-      <div className="Reg" id="prop">
+      <div className="Reg" id="qpr">
         <header> 
-          Land Registry
+          Property Queries 
           <img src={ logo } className="App-logo" alt="logo" />
         </header>
+        <br /><br />
       </div>
 
       <div className ="qpr">
-        <h2 className="App-title"> Property Queries </h2>
 
         <button onClick= {this.query}> Registration District? </button>
         <br /><br />
@@ -457,11 +457,11 @@ class PropQ extends Component {
         </form>
         <br /><br />
 
-        <button onClick= {this.kill}> DESTROY (really) </button>
-        <br /><br />  
+        <button onClick= {this.kill}> DESTROY REGISTER (really) </button>
 
-        <Link to="/LandRegistry">Back</Link>  
-        <br /><br />    
+        <br /><br />
+        <a href = "#prop">Back</a>  
+         <br /><br />    
    
       </div>
 

@@ -438,15 +438,14 @@ class PropChange extends Component {
     return (
       <>
 
-      <div className="Reg" id="prop">
+      <div className="Reg" id="apr">
         <header> 
-          Land Registry 
+          Amend Registration
           <img src={ logo } className="App-logo" alt="logo" />
         </header>
       </div>
 
       <div classname = "details" >
-      <h2>  Property Registration Number:</h2>
 
         <form onSubmit={ this.handleDetailsRequest }>
           <label>
@@ -534,7 +533,7 @@ class PropChange extends Component {
       <div className ="qpr">
 
         <br /><br />
-        <Link to="/LandRegistry">Back</Link>  
+        <a href = "#prop">Back</a>  
          <br /><br />         
       </div>
 

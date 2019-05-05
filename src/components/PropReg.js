@@ -391,13 +391,13 @@ class PropReg extends Component {
 
       <div className="Reg" id="prop">
         <header> 
-          Land Registry
+          Registration Form
           <img src={ logo } className="App-logo" alt="logo" />
         </header>
       </div>
 
       <div className ="prf" >
-        <h2>  Registration Form</h2>
+        Registration Form
         <form onSubmit = { this.handlePropReg } >
           <label>
           Property Registration Number
@@ -457,7 +457,7 @@ class PropReg extends Component {
         </form> 
         <br/><br/><br />
         
-        <Link to="/LandRegistry">Back</Link>  
+        <a href = "#prop">Back</a>  
          <br /><br />         
       </div>
 
